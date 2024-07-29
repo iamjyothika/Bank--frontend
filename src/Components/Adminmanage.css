@@ -1,0 +1,62 @@
+.table-container{
+  margin:30px auto;
+  width:80%;
+}
+.table-bordered {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.btn-approve {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 15px; /* Spacing between buttons */
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-approve:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.btn-reject {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-reject:hover {
+  background-color: #e53935; /* Darker red */
+}
+.status-message {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #d4edda; /* Default background color for success */
+  color: #155724; /* Default text color for success */
+}
+
+.status-message {
+  background-color: #f8d7da; /* Default background color for error */
+  color: #721c24; /* Default text color for error */
+}

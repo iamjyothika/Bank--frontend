@@ -1,0 +1,49 @@
+/* BankNavbar.css */
+/* BankNavbar.css */
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 1rem;
+    font-size: 1.1rem;
+  }
+  
+
+  
+  .navbar-nav .nav-link.login {
+    font-weight: bold;
+    color: #007bff;
+  }
+/* Navbar Container */
+.navbar {
+    background-color:orange; /* Set background color to yellow */
+    padding: 1rem 2rem; /* Padding around navbar content */
+    border-bottom: 1px solid #e5e5e5; /* Bottom border */
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand {
+    font-size: 1.5rem; /* Brand font size */
+    font-weight: bold; /* Brand font weight */
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    margin-right: 1rem; /* Margin between navbar links */
+    font-size: 1.1rem; /* Font size of navbar links */
+  }
+  
+  /* Login Link */
+  .navbar-nav .nav-link.login {
+    font-weight: bold; /* Bold font weight */
+    color: #007bff; /* Blue color for login link */
+  }
+  
+  /* Active Link */
+  .navbar-nav .nav-link.active {
+    color: #007bff; /* Active link text color */
+  }
+  

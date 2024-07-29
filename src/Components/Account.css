@@ -1,0 +1,35 @@
+.customer-details-container {
+    padding: 20px;
+  }
+  
+  .customer-details {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .customer-details p {
+    margin: 10px 0;
+  }
+  
+  .transaction-table-container {
+    margin-top: 20px;
+  }
+  
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-table th, .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transaction-table th {
+    background-color: #f2f2f2;
+  }
+  
+  

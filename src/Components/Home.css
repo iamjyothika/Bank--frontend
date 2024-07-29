@@ -1,0 +1,41 @@
+
+.container {
+   padding: 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  /* Quote container styles */
+  .quote-container {
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .quote {
+    font: size 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    color:black;
+  }
+
+
+
+
+/* Card Title */
+.card-title {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 1em;
+  color: #777;
+}

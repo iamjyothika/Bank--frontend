@@ -1,0 +1,33 @@
+.transfer-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transfer-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .transfer-form-container .form-label {
+    font-weight: bold;
+  }
+  
+  .transfer-form-container .btn-primary,
+  .transfer-form-container .btn-secondary {
+    width: 100%;
+  }
+  
+  .transfer-form-container .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .alert {
+    margin-top: 20px;
+  }
+  
